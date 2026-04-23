@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexa Tech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>NEXA TECH</h1>
+  <p>Advancing Intelligence</p>
+</header>
+
+<section class="hero">
+  <h2>Welcome to the Future</h2>
+  <p>We build AI, cloud, and secure systems.</p>
+</section>
+
+<section class="services">
+  <div>AI Solutions</div>
+  <div>Cloud Platform</div>
+  <div>Cybersecurity</div>
+</section>
+
+<footer>
+  <p>© 2026 Nexa Tech</p>
+</footer>
+
+</body>
+</html>
