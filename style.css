@@ -66,3 +66,55 @@ html {
   border-bottom: 1px solid #222;
   z-index: 1000;
 }
+
+/* HERO */
+.hero {
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  color: #aaa;
+  margin: 15px 0;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 280px;
+  padding: 20px;
+  background: #0a0a0a;
+  border-radius: 10px;
+  border: 1px solid #111;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #333;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* CTA */
+.cta {
+  padding: 80px 20px;
+  border-top: 1px solid #111;
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+}
