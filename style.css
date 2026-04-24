@@ -42,11 +42,13 @@ nav a:hover {
 
 /* HERO */
 .hero {
-  padding: 100px 20px;
+  padding: 120px 20px;
+  text-align: center;
 }
 
 .hero h1 {
-  font-size: 40px;
+  font-size: 42px;
+  letter-spacing: 1px;
 }
 
 .hero p {
