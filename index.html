@@ -65,5 +65,21 @@
   <p class="copy">© 2026 Nexa Tech. All rights reserved.</p>
 </footer>
 
+<script>
+document.body.classList.add('js-enabled');
+
+const elements = document.querySelectorAll('.fade-in');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+});
+
+elements.forEach(el => observer.observe(el));
+</script>
+
 </body>
 </html>
