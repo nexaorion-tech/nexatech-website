@@ -217,3 +217,35 @@ html {
   color: #666;
   margin-top: 20px;
 }
+
+/* NAVBAR FIX */
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #222;
+}
+
+/* LOGO */
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* NAV LINKS */
+nav a {
+  color: #aaa;
+  text-decoration: none; /* removes underline */
+  margin-left: 15px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
