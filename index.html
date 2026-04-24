@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexa Tech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">NEXA TECH</div>
+  <nav>
+    <a href="#">Products</a>
+    <a href="#">Technology</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Intelligence. Engineered.</h1>
+  <p>AI systems, robotics, and cloud infrastructure built for the future.</p>
+  <div class="hero-buttons">
+    <button class="primary">Get Started</button>
+    <button class="secondary">Learn More</button>
+  </div>
+</section>
+
+<section class="feature">
+  <div class="text">
+    <h2>AI Systems</h2>
+    <p>We design intelligent systems that learn, adapt, and scale globally.</p>
+  </div>
+</section>
+
+<section class="feature alt">
+  <div class="text">
+    <h2>Robotics</h2>
+    <p>Precision-engineered machines for real-world impact.</p>
+  </div>
+</section>
+
+<section class="feature">
+  <div class="text">
+    <h2>Cloud Infrastructure</h2>
+    <p>Secure, fast, and scalable systems powering the next generation.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Nexa Tech</p>
+</footer>
+
+<script>
+const elements = document.querySelectorAll('.fade-in');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+});
+
+elements.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
