@@ -200,3 +200,10 @@ nav a:hover {
   position: relative;
   z-index: 1;
 }
+
+/* disable parallax on mobile */
+@media (max-width: 768px) {
+  .hero {
+    background-attachment: scroll;
+  }
+}
