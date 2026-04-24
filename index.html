@@ -97,6 +97,12 @@ window.addEventListener('scroll', () => {
   let scroll = window.scrollY;
   hero.style.backgroundPositionY = scroll * 0.5 + "px";
 });
+if (hero) {
+  window.addEventListener('scroll', () => {
+    let scroll = window.scrollY;
+    hero.style.backgroundPositionY = scroll * 0.5 + "px";
+  });
+}
 </script>
 
 </body>
