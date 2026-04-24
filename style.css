@@ -118,3 +118,39 @@ html {
 .cta h2 {
   margin-bottom: 20px;
 }
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+
+  .hero {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  .cta {
+    text-align: center;
+  }
+
+}
