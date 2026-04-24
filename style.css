@@ -253,3 +253,9 @@ button::after {
 button:hover::after {
   opacity: 1;
 }
+
+/* GLOBAL SPACING */
+section {
+  max-width: 1100px;
+  margin: auto;
+}
