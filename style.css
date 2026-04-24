@@ -176,3 +176,27 @@ nav a:hover {
   background: rgba(0,0,0,0.95);
   box-shadow: 0 5px 20px rgba(0,0,0,0.5);
 }
+
+/* HERO PARALLAX */
+.hero {
+  position: relative;
+  padding: 120px 20px;
+  overflow: hidden;
+  background: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa') center/cover no-repeat;
+}
+
+/* dark overlay for readability */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+}
+
+/* keep text above overlay */
+.hero h1,
+.hero p,
+.hero button {
+  position: relative;
+  z-index: 1;
+}
