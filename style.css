@@ -42,8 +42,27 @@ nav a:hover {
 
 /* HERO */
 .hero {
+  position: relative;
   padding: 120px 20px;
   text-align: center;
+  overflow: hidden;
+  background: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa') center/cover no-repeat;
+}
+
+/* overlay for readability */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+}
+
+/* keep content above overlay */
+.hero h1,
+.hero p,
+.hero button {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1 {
