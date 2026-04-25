@@ -110,27 +110,19 @@ const observer = new IntersectionObserver(entries => {
 
 elements.forEach(el => observer.observe(el));
 
-/* NAVBAR SCROLL EFFECT */
+/* NAVBAR SCROLL */
 const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 50) {
-    navbar.classList.add('scrolled');
-  } else {
-    navbar.classList.remove('scrolled');
-  }
+  navbar.classList.toggle('scrolled', window.scrollY > 50);
 });
-// PARALLAX EFFECT
+
+/* PARALLAX (SAFE) */
 const hero = document.querySelector('.hero');
 
-window.addEventListener('scroll', () => {
-  let scroll = window.scrollY;
-  hero.style.backgroundPositionY = scroll * 0.5 + "px";
-});
 if (hero) {
   window.addEventListener('scroll', () => {
-    let scroll = window.scrollY;
-    hero.style.backgroundPositionY = scroll * 0.5 + "px";
+    hero.style.backgroundPositionY = window.scrollY * 0.5 + "px";
   });
 }
 </script>
