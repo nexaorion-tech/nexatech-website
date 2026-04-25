@@ -285,3 +285,16 @@ section {
   font-size: 28px;
   margin-bottom: 20px;
 }
+
+.card {
+  text-align: left;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.card p {
+  color: #aaa;
+  font-size: 14px;
+}
