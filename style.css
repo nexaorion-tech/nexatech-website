@@ -306,3 +306,30 @@ section {
 .cta button {
   margin-top: 15px;
 }
+
+/* SUBTITLE TEXT */
+.subtitle {
+  color: #aaa;
+  max-width: 600px;
+  margin: 10px auto 40px;
+  font-size: 15px;
+}
+
+/* BETTER SECTION SPACING */
+.section {
+  padding: 80px 20px;
+}
+
+/* HERO IMPROVEMENT */
+.hero h1 {
+  font-size: 44px;
+}
+
+.hero p {
+  font-size: 16px;
+}
+
+/* CARD SPACING */
+.card {
+  padding: 25px;
+}
