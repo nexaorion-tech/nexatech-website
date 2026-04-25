@@ -298,3 +298,11 @@ section {
   color: #aaa;
   font-size: 14px;
 }
+
+.cta h2 {
+  font-size: 26px;
+}
+
+.cta button {
+  margin-top: 15px;
+}
